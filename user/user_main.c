@@ -36,7 +36,7 @@ some pictures of cats.
 int myPassFn(HttpdConnData *connData, int no, char *user, int userLen, char *pass, int passLen) {
 	if (no==0) {
 		os_strcpy(user, "admin");
-		os_strcpy(pass, "Th4nhBu1");
+		os_strcpy(pass, "12345678");
 		return 1;
 //Add more users this way. Check against incrementing no for each user added.
 //	} else if (no==1) {
